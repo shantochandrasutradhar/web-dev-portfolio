@@ -172,3 +172,59 @@ main{
     font-weight: 400;
     color: #757575;
 }
+/*resume start*/
+.resume{
+    text-align: center;
+    margin-top: 130px;
+    color: #181818;
+}
+
+.resume-container{
+    display: flex;
+    text-align: left;
+    margin-top: 110px;
+    gap: 25px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.experience{
+    padding: 0px 0px 12px 0px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #757575;
+}
+.experience-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+     
+}
+.button-center{
+    text-align: center;
+}
+.button-primary{
+    background-color: #FD6E0A;
+    color: #FFF8F3;
+    padding: 20px 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.button-primary:hover{
+ background-color: rgb(45, 196, 198);
+ color: #ffffff;
+}
