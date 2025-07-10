@@ -213,6 +213,7 @@ main{
 }
 .button-center{
     text-align: center;
+    margin-top: 30px;
 }
 .button-primary{
     background-color: #FD6E0A;
@@ -227,4 +228,32 @@ main{
 .button-primary:hover{
  background-color: rgb(45, 196, 198);
  color: #ffffff;
+}
+
+/*footer section*/
+
+.bg-color{
+   background-color: #FFF8F3; 
+}
+.footer-section{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+    
+}
+.input-area{
+    display:block;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
 }
